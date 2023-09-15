@@ -1,1 +1,98 @@
-# hamza-daoud
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta description="I am hamza daoudifront end web developer">
+    <title>hamzadaoudi</title>
+</head>
+<body>
+    <header>
+        <img src="./49a3488e-5e15-4561-a940-e754dd49952a.jfif" alt="image" wadth="150" height="150">
+        <p><i> ahsan mobarmij </i></p>
+        <p>I have strong passion in creating mobile driendly web applications</p>
+    </header>
+    <hr>
+    <main>
+        <!--abut us-->
+        <section>
+            <h2>abut us</h2>
+            <p>age:18</p>
+            <p>email:hamzadaoudi22222@gmail.com</p>
+            <p>phone number:0762881964</p>
+            <a href="https://web.facebook.com/mohamad.rajawi.18400"target=>facebook</a>
+            <a href="https://www.instagram.com/_hamz_a_in/"target=>instagram</a>
+        </section>
+        <hr>
+        <!--Education-->
+        <section>
+                <h2>Education</h2>
+                <p>Bac for science math <br>business adminstration <br>2020-2023</p>
+                <p>mandar jamil School <br>2019-2023</p>       
+        </section>
+        <hr>
+        <!--skills-->
+        <section>
+            <h2>My skills</h2>
+            <ul>
+                <li>phyton</li>
+                <li>c++</li>
+                <li>html</li>
+                <li>css</li>
+            </ul>
+        </section>
+        <hr>
+        <!--hobbies-->
+        <section>
+            <h2>My hobbies</h2>
+            <table border="1" width="30%">
+                <thead>
+                    <tr>
+                        <td>Number</td>  
+                        <td>Name</td>  
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>football</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Basketball</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>fitness</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>playtation</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <hr>
+    </main>
+    <!--contact-->
+    <h2>Contact Us</h2>
+    <form action="https://formsubmit.co/hamzadaoudi22222@gmail.com" method="post">
+            <div>
+            <label>Name</label><br>
+            <input type="text" required>
+        </div><br>
+        <div>
+            <label>Email</label><br>
+            <input type="email" required>
+        </div><br>
+        <div>
+            <label>password</label><br>
+            <input type="password" required>
+        </div><br>
+        <div>
+            <textarea name="massage" cols="40" rows="10" placeholder="Entre a massage..."></textarea>
+        </div>
+        <input type="submit" value="send">
+    </form>
+</body>
+</html>
